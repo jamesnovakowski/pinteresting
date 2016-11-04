@@ -86,6 +86,6 @@ Rails.application.configure do
 
   # Required for Heroku
   # Note to set this to the actual host
-  config.action_mailer.default_url_options = { host=> "pinteresting-nova.herokuapp.com" }
+  #config.action_mailer.default_url_options = { host=> "http://pinteresting-nova.herokuapp.com" }
 
 end
