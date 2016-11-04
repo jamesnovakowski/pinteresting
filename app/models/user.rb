@@ -11,5 +11,5 @@ class User < ApplicationRecord
   										:length => {:within => 6..40},
   										:on => :create,
   										:if => :password,
-  										:format => {:with => /\A.*(?=.{10,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\@\#\$\%\^\&\+\=]).*\Z/ }
+  										:format => {:with => /\A.*(?=.{6,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*\Z/ }
 end
