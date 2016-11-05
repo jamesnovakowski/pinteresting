@@ -11,6 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 
 gem 'devise', '~> 4.2'
+gem 'paperclip', '~> 5.0'
 
 # Use bootstrap-sass for CSS prettifying
 gem 'bootstrap-sass'
