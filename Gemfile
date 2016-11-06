@@ -12,6 +12,7 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.0'
+gem 'cocaine'
 
 # Use bootstrap-sass for CSS prettifying
 gem 'bootstrap-sass'
