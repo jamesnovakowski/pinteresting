@@ -1,5 +1,5 @@
 class Pin < ApplicationRecord
-	Paperclip.options[:command_path] = '/usr/bin'
+	#Paperclip.options[:command_path] = '/usr/bin'
 
 	belongs_to :user
 
