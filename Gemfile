@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -15,6 +14,7 @@ gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.0'
 gem 'cocaine'
 gem 'aws-sdk', '~> 2'
+gem 'figaro'
 
 # Use bootstrap-sass for CSS prettifying
 gem 'bootstrap-sass'

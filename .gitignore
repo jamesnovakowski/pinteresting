@@ -24,3 +24,6 @@
 public/system/pins/images/
 
 .env
+
+# Ignore application configuration
+/config/application.yml
