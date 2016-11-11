@@ -9,9 +9,12 @@ class User < ApplicationRecord
   validates :password, :presence => true,
   										:confirmation => true,
   										:length => {:within => 6..40},
-  										:on => :create,
   										:if => :password,
   										:format => {:with => /\A.*(?=.{6,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*\Z/ }
+
+  validates :name, :presence => true,
+                   :uniqueness => true,
+                   :length => {in: 5..50}
 
   has_many :pins
 
