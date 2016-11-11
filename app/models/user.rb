@@ -16,6 +16,6 @@ class User < ApplicationRecord
                    :uniqueness => true,
                    :length => {in: 5..50}
 
-  has_many :pins
+  has_many :pins, dependent: :destroy 
 
 end
